@@ -120,8 +120,8 @@ DigitalOut displayEn( D12 );
 #define D12_Pin GPIO_PIN_6
 #define D12_GPIO_Port GPIOA
 
-I2C i2cPcf8574( I2C1_SDA, I2C1_SCL ); 
-extern I2C_HandleTypeDef hi2c1;
+// I2C i2cPcf8574( I2C1_SDA, I2C1_SCL ); 
+I2C_HandleTypeDef hi2c1;
 
 //=====[Declaration of external public global variables]=======================
 
